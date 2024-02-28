@@ -20,7 +20,7 @@ export default class Character {
     this.level = 1
     this.attack = null
     this.defence = null
-  };
+  }
   levelUp(){
     if (this.health > 0){
       this.level = this.level + 1;
